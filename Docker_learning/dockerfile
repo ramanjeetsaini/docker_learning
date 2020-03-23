@@ -1,0 +1,8 @@
+FROM python:latest
+
+LABEL version="0.0.1"
+LABEL maintainer="rj.s.saini@gmail.com"
+
+ADD hello.py /
+
+CMD ["python","./hello.py"]
